@@ -1,0 +1,4 @@
+Abra index.html no navegador (duplo clique funciona), ou:
+  cd casorio-mesas && python3 -m http.server 8080  ->  http://localhost:8080
+No celular (mesma rede Wi-Fi): http://IP-DO-PC:8080
+Dados ficam salvos no navegador (localStorage) — use Exportar > Backup .json para guardar/levar para outro aparelho.
