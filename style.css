@@ -24,7 +24,7 @@ input,textarea{font:inherit;width:100%;padding:8px 10px;margin-bottom:6px;border
 .seat{display:flex;gap:8px;align-items:center;min-height:36px;padding:4px 8px;border-bottom:1px dotted #d9d4c3;cursor:pointer}
 .seat .n{width:20px;color:var(--o2);font-size:.85rem}.seat.empty .nm{color:#b5b09c;font-style:italic}
 .seat.target{background:#f3f1e4}.seat.over{background:#e4e1c8}.seat .x{margin-left:auto;border:0;background:none;color:var(--o);cursor:pointer}
-.tact{display:flex;gap:6px;justify-content:flex-end}.tact button{font:inherit;font-size:.85rem;background:none;border:0;color:var(--o);text-decoration:underline;cursor:pointer}
+.tact{display:flex;gap:8px;justify-content:flex-end;align-items:center;flex-wrap:wrap}.tact button{font:inherit;font-size:.85rem;background:none;border:0;color:var(--o);text-decoration:underline;cursor:pointer}.sz{display:flex;align-items:center;gap:4px;margin-right:auto;font-size:.85rem;color:var(--o);font-style:italic}.sz input{width:52px;margin:0;padding:4px 6px;font-size:.9rem;text-align:center}
 dialog{border:3px double var(--o);background:var(--c);border-radius:6px;width:min(92vw,420px)}.row{display:flex;gap:8px;justify-content:flex-end}.col2{display:grid;gap:8px}
 @media(max-width:720px){.bar .btn{padding:7px 11px;font-size:.88rem}.board{grid-template-columns:1fr}.pool{position:static;max-height:45vh}.mono{width:110px;height:82px}.corner{width:32px;height:32px}.tables{grid-template-columns:1fr}}
 @media print{.bar,.pool,.tact,.x,.hint{display:none!important}.board{display:block}.tables{grid-template-columns:repeat(3,1fr)}.table{break-inside:avoid}}
